@@ -1,5 +1,9 @@
 <div align="center">
 
+🇹🇷 [Türkçe](README-tr.md) · 🇬🇧 **English** · 🇩🇪 [Deutsch](README-de.md)
+
+---
+
 # 🌍 Remote & Freelance Platform Hub
 
 **Global and local platforms — find your job, your client, and your freedom right here.**
@@ -7,7 +11,6 @@
 [![GitHub](https://img.shields.io/badge/GitHub-mktr84-181717?style=for-the-badge&logo=github)](https://github.com/mktr84/FreelancerSiteler)
 [![License](https://img.shields.io/badge/License-MIT-a78bfa?style=for-the-badge)](LICENSE)
 [![Website](https://img.shields.io/badge/Live_Demo-🌐-6ee7f7?style=for-the-badge)](https://mktr84.github.io/FreelancerSiteler)
-[![Türkçe](https://img.shields.io/badge/🇹🇷_Türkçe-README-e34f26?style=for-the-badge)](README-tr.md)
 
 </div>
 
@@ -74,8 +77,9 @@ FreelancerSiteler/
 ├── style.css        # All CSS styles & animations
 ├── script.js        # Language switching function
 ├── i18n.js          # Multi-language data (TR, EN, DE)
-├── README.md        # This file (English)
-└── README-tr.md     # Turkish documentation
+├── README.md        # English documentation (this file)
+├── README-tr.md     # Turkish documentation
+└── README-de.md     # German documentation
 ```
 
 ---
