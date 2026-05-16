@@ -1,53 +1,54 @@
 <div align="center">
 
-# 🌍 Remote & Freelance Platform Direktörü
+# 🌍 Remote & Freelance Platform Hub
 
-**Küresel ve yerel platformlar — işini, müşterini ve özgürlüğünü buradan bul.**
+**Global and local platforms — find your job, your client, and your freedom right here.**
 
 [![GitHub](https://img.shields.io/badge/GitHub-mktr84-181717?style=for-the-badge&logo=github)](https://github.com/mktr84/FreelancerSiteler)
 [![License](https://img.shields.io/badge/License-MIT-a78bfa?style=for-the-badge)](LICENSE)
 [![Website](https://img.shields.io/badge/Live_Demo-🌐-6ee7f7?style=for-the-badge)](https://mktr84.github.io/FreelancerSiteler)
+[![Türkçe](https://img.shields.io/badge/🇹🇷_Türkçe-README-e34f26?style=for-the-badge)](README-tr.md)
 
 </div>
 
 ---
 
-## 📖 Hakkında
+## 📖 About
 
-Remote & Freelance Platform Direktörü, uzaktan çalışma ve freelance iş arayan profesyoneller için hazırlanmış kapsamlı bir platform rehberidir. Glassmorphism tasarımı, çoklu dil desteği (🇹🇷 Türkçe, 🇬🇧 English, 🇩🇪 Deutsch) ve modern arayüzü ile öne çıkar.
-
----
-
-## 🚀 Ana Platformlar
-
-| # | Platform | Açıklama | Kategori |
-|:-:|----------|----------|----------|
-| 01 | [**justremote.co**](https://justremote.co) | Kategori ve ülkeye göre filtreleyerek uzaktan iş ilanlarına kolayca başvuru yapabilirsin. | `Remote · Filtreli` |
-| 02 | [**wellfound.com**](https://wellfound.com) | Startup ve teknoloji şirketlerinde remote çalışmak isteyenler için popüler bir iş platformu. | `Startup · Tech` |
-| 03 | [**weworkremotely.com**](https://weworkremotely.com) | Dünyanın en büyük uzaktan çalışma iş ilanı platformlarından biri. Global ölçek. | `Global · Büyük Platform` |
-| 04 | [**remoteok.com**](https://remoteok.com) | Yazılım, tasarım, pazarlama ve müşteri destek alanlarında global remote işler sunar. | `Çok Alanlı · Global` |
-| 05 | [**upwork.com**](https://upwork.com) | Freelance projelere teklif vererek müşterilerle çalışabileceğin dünyanın en büyük freelance platformu. | `Freelance · Dev Ölçek` |
-| 06 | [**fiverr.com**](https://fiverr.com) | Yeteneklerini hizmet olarak listeleyip müşterilere satış yapabileceğin popüler freelance platformu. | `Gig · Hizmet Satışı` |
-| 07 | [**freelancer.com**](https://freelancer.com) | Yarışmalı teklif sistemiyle freelance projeler kazanabileceğin uluslararası iş platformu. | `Teklif · Yarışma` |
-| 08 | [**toptal.com**](https://toptal.com) | Yüksek kaliteli freelance uzmanları büyük şirketlerle buluşturan seçici ve prestijli platform. | `Elite · Seçici` |
-| 09 | [**bionluk.com**](https://bionluk.com) | Türkiye'de en çok kullanılan freelance iş platformlarından biri. Yerel pazara hâkim. | `Türkiye · Yerel` |
-| 10 | [**sadeceon.com**](https://sadeceon.com) | Türkiye merkezli freelance hizmet alım-satımı yapabileceğin popüler yerel platformlardan biri. | `Türkiye · Hizmet` |
+Remote & Freelance Platform Hub is a comprehensive directory designed for professionals seeking remote work and freelance opportunities. It features a glassmorphism UI design, multi-language support (🇹🇷 Turkish, 🇬🇧 English, 🇩🇪 German), and a modern responsive interface.
 
 ---
 
-## 🎁 Bonus Platformlar
+## 🚀 Main Platforms
 
-| Platform | Açıklama | Etiket |
-|----------|----------|--------|
-| [**flexjobs.com**](https://flexjobs.com) | Doğrulanmış ve güvenilir remote iş ilanları paylaşan kaliteli bir platform. | `Ücretli` |
-| [**himalayas.app**](https://himalayas.app) | Modern arayüzüyle remote iş ilanlarını detaylı filtreleme imkânı sunar. | `Modern` |
-| [**peopleperhour.com**](https://peopleperhour.com) | Saatlik freelance işler bulabileceğin Avrupa merkezli platformlardan biri. | `Avrupa` |
-| [**guru.com**](https://guru.com) | Freelance çalışanlar için uzun dönemli proje fırsatları sunan bir iş ağı. | `Uzun Dönem` |
-| [**r10.net**](https://r10.net) | Türkiye'de yazılım, tasarım ve dijital hizmet alanlarında aktif kullanılan topluluk. | `Topluluk` |
+| # | Platform | Description | Category |
+|:-:|----------|-------------|----------|
+| 01 | [**justremote.co**](https://justremote.co) | Filter remote job listings by category and country and apply with ease. | `Remote · Filtered` |
+| 02 | [**wellfound.com**](https://wellfound.com) | A popular job platform for those looking to work remotely at startups and tech companies. | `Startup · Tech` |
+| 03 | [**weworkremotely.com**](https://weworkremotely.com) | One of the world's largest remote work job boards with truly global scale. | `Global · Large Scale` |
+| 04 | [**remoteok.com**](https://remoteok.com) | Offers global remote jobs across software, design, marketing, and customer support. | `Multi-field · Global` |
+| 05 | [**upwork.com**](https://upwork.com) | The world's largest freelance platform where you bid on projects and work directly with clients. | `Freelance · Massive Scale` |
+| 06 | [**fiverr.com**](https://fiverr.com) | A popular marketplace where you list your skills as services and sell directly to clients. | `Gig · Service Sales` |
+| 07 | [**freelancer.com**](https://freelancer.com) | An international platform where you win freelance projects through a competitive bidding system. | `Bidding · Competitive` |
+| 08 | [**toptal.com**](https://toptal.com) | A selective and prestigious platform connecting top-tier freelancers with major companies. | `Elite · Curated` |
+| 09 | [**bionluk.com**](https://bionluk.com) | One of the most widely used freelance job platforms in Turkey, dominating the local market. | `Turkey · Local` |
+| 10 | [**sadeceon.com**](https://sadeceon.com) | A popular Turkey-based platform for buying and selling freelance services locally. | `Turkey · Services` |
 
 ---
 
-## 🛠️ Teknolojiler
+## 🎁 Bonus Platforms
+
+| Platform | Description | Tag |
+|----------|-------------|-----|
+| [**flexjobs.com**](https://flexjobs.com) | A quality platform sharing verified and trusted remote job listings. | `Paid` |
+| [**himalayas.app**](https://himalayas.app) | Offers detailed filtering of remote jobs through a modern interface. | `Modern` |
+| [**peopleperhour.com**](https://peopleperhour.com) | A European-based platform for finding hourly freelance work. | `Europe` |
+| [**guru.com**](https://guru.com) | A professional network offering long-term project opportunities for freelancers. | `Long-term` |
+| [**r10.net**](https://r10.net) | An active community in Turkey for software, design, and digital services. | `Community` |
+
+---
+
+## 🛠️ Tech Stack
 
 <div align="center">
 
@@ -57,41 +58,42 @@ Remote & Freelance Platform Direktörü, uzaktan çalışma ve freelance iş ara
 
 </div>
 
-- **Glassmorphism UI** — Modern cam efektli arayüz tasarımı
-- **Çoklu Dil Desteği** — Türkçe, English, Deutsch
-- **Responsive Tasarım** — Tüm cihazlarda uyumlu
-- **CSS Animasyonları** — Fade-up kartlar, hover efektleri, arka plan orb animasyonları
-- **Sıfır Bağımlılık** — Framework kullanmadan saf HTML/CSS/JS
+- **Glassmorphism UI** — Modern frosted-glass interface design
+- **Multi-language Support** — Turkish, English, German
+- **Responsive Design** — Fully compatible across all devices
+- **CSS Animations** — Fade-up cards, hover effects, background orb animations
+- **Zero Dependencies** — Pure HTML/CSS/JS, no frameworks required
 
 ---
 
-## 📁 Proje Yapısı
+## 📁 Project Structure
 
 ```
 FreelancerSiteler/
-├── index.html      # Ana HTML yapısı
-├── style.css       # Tüm CSS stilleri & animasyonlar
-├── script.js       # Dil değiştirme fonksiyonu
-├── i18n.js         # Çoklu dil verileri (TR, EN, DE)
-└── README.md       # Bu dosya
+├── index.html       # Main HTML structure
+├── style.css        # All CSS styles & animations
+├── script.js        # Language switching function
+├── i18n.js          # Multi-language data (TR, EN, DE)
+├── README.md        # This file (English)
+└── README-tr.md     # Turkish documentation
 ```
 
 ---
 
-## ⚡ Kullanım
+## ⚡ Getting Started
 
-Projeyi klonlayın ve doğrudan tarayıcıda açın:
+Clone the repository and open it directly in your browser:
 
 ```bash
 git clone https://github.com/mktr84/FreelancerSiteler.git
 cd FreelancerSiteler
 ```
 
-`index.html` dosyasını tarayıcınızda açın — sunucuya gerek yoktur.
+Open `index.html` in your browser — no server required.
 
 ---
 
-## 🌐 Hızlı Erişim Linkleri
+## 🌐 Quick Access Links
 
 <div align="center">
 
@@ -117,7 +119,7 @@ cd FreelancerSiteler
 
 <div align="center">
 
-**Remote çalışmak özgürlüktür 🌐**
+**Working remote is freedom 🌐**
 
 Made with ❤️ by [mktr84](https://github.com/mktr84)
 
