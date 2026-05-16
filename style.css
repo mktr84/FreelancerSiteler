@@ -1,0 +1,114 @@
+:root {
+  --bg: #0b0f1a;
+  --glass: rgba(255,255,255,0.05);
+  --glass-border: rgba(255,255,255,0.10);
+  --glass-hover: rgba(255,255,255,0.09);
+  --accent1: #6ee7f7; --accent2: #a78bfa; --accent3: #f472b6;
+  --accent4: #34d399; --accent5: #fbbf24;
+  --text: #e2e8f0; --muted: #94a3b8; --card-radius: 20px;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; overflow-x: hidden; }
+
+.bg-orbs { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
+.orb { position: absolute; border-radius: 50%; filter: blur(110px); opacity: 0.28; animation: drift 18s ease-in-out infinite alternate; }
+.orb1 { width: 520px; height: 520px; background: #6366f1; top: -120px; left: -120px; }
+.orb2 { width: 400px; height: 400px; background: #ec4899; top: 30%; right: -100px; animation-delay: -6s; }
+.orb3 { width: 350px; height: 350px; background: #06b6d4; bottom: -80px; left: 30%; animation-delay: -12s; }
+@keyframes drift { from { transform: translate(0,0) scale(1); } to { transform: translate(40px,30px) scale(1.08); } }
+
+.container { position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; padding: 48px 24px 80px; }
+
+/* ── Lang bar ── */
+.lang-bar { display: flex; justify-content: flex-end; gap: 6px; margin-bottom: 40px; }
+.lang-btn {
+  font-family: 'Syne', sans-serif; font-size: 0.72rem; font-weight: 700;
+  letter-spacing: 0.1em; padding: 6px 14px; border-radius: 100px;
+  border: 1px solid var(--glass-border); background: var(--glass);
+  color: var(--muted); cursor: pointer; backdrop-filter: blur(12px);
+  transition: all 0.2s; display: flex; align-items: center; gap: 6px;
+}
+.lang-btn:hover { background: rgba(255,255,255,0.09); color: var(--text); }
+.lang-btn.active { background: rgba(99,102,241,0.22); border-color: rgba(99,102,241,0.45); color: var(--accent2); }
+.lang-flag { font-size: 1rem; line-height: 1; }
+
+/* ── Header ── */
+header { text-align: center; margin-bottom: 56px; }
+.badge {
+  display: inline-block; background: rgba(99,102,241,0.18); border: 1px solid rgba(99,102,241,0.35);
+  color: var(--accent2); font-family: 'Syne', sans-serif; font-size: 0.72rem; font-weight: 600;
+  letter-spacing: 0.14em; text-transform: uppercase; padding: 6px 16px; border-radius: 100px; margin-bottom: 20px;
+}
+header h1 {
+  font-family: 'Syne', sans-serif; font-size: clamp(2rem, 5vw, 3.4rem);
+  font-weight: 800; line-height: 1.12; letter-spacing: -0.02em;
+  background: linear-gradient(135deg, #fff 30%, var(--accent1) 75%, var(--accent2));
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 14px;
+}
+header p { color: var(--muted); font-size: 1.05rem; font-weight: 300; max-width: 500px; margin: 0 auto; line-height: 1.65; }
+
+.section-label {
+  font-family: 'Syne', sans-serif; font-size: 0.7rem; font-weight: 700;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted);
+  margin-bottom: 20px; padding-left: 4px; display: flex; align-items: center; gap: 10px;
+}
+.section-label::after { content: ''; flex: 1; height: 1px; background: var(--glass-border); }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 18px; margin-bottom: 48px; }
+
+.card {
+  background: var(--glass); border: 1px solid var(--glass-border); border-radius: var(--card-radius);
+  padding: 26px 26px 24px; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+  display: flex; flex-direction: column; gap: 12px; position: relative; overflow: hidden;
+  transition: transform 0.28s cubic-bezier(.22,1,.36,1), box-shadow 0.28s, background 0.28s;
+  text-decoration: none; color: inherit; cursor: pointer;
+}
+.card::before { content: ''; position: absolute; inset: 0; border-radius: inherit; background: linear-gradient(135deg, rgba(255,255,255,0.07) 0%, transparent 60%); pointer-events: none; }
+.card:hover { transform: translateY(-5px) scale(1.012); background: var(--glass-hover); box-shadow: 0 20px 60px rgba(0,0,0,0.45), 0 0 0 1px rgba(255,255,255,0.13); }
+.card:hover .card-arrow { opacity: 1; transform: translate(2px,-2px); }
+.card-accent { position: absolute; top: 0; left: 24px; right: 24px; height: 2px; border-radius: 0 0 4px 4px; }
+.card-top { display: flex; align-items: center; justify-content: space-between; }
+.card-num { font-family: 'Syne', sans-serif; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; opacity: 0.38; }
+.card-arrow { width: 28px; height: 28px; border-radius: 8px; display: flex; align-items: center; justify-content: center; background: rgba(255,255,255,0.06); font-size: 0.85rem; opacity: 0; transition: opacity 0.2s, transform 0.2s; flex-shrink: 0; }
+.card-name { font-family: 'Syne', sans-serif; font-size: 1.12rem; font-weight: 700; letter-spacing: -0.01em; line-height: 1.2; }
+.card-desc { font-size: 0.875rem; color: var(--muted); font-weight: 400; line-height: 1.6; flex: 1; }
+.card-tag { align-self: flex-start; font-size: 0.67rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 4px 10px; border-radius: 100px; background: rgba(255,255,255,0.06); color: var(--muted); border: 1px solid rgba(255,255,255,0.08); }
+
+.bonus-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px; }
+.bonus-card {
+  background: rgba(255,255,255,0.03); border: 1px solid var(--glass-border); border-radius: 14px;
+  padding: 18px 20px; backdrop-filter: blur(16px); display: flex; flex-direction: column; gap: 8px;
+  text-decoration: none; color: inherit; transition: background 0.22s, transform 0.22s, box-shadow 0.22s;
+  position: relative; overflow: hidden;
+}
+.bonus-card::before { content: ''; position: absolute; top: 0; left: 16px; right: 16px; height: 1.5px; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent); }
+.bonus-card:hover { background: rgba(255,255,255,0.065); transform: translateY(-3px); box-shadow: 0 12px 36px rgba(0,0,0,0.35); }
+.bonus-name { font-family: 'Syne', sans-serif; font-size: 0.95rem; font-weight: 700; }
+.bonus-desc { font-size: 0.8rem; color: var(--muted); line-height: 1.55; }
+.bonus-label { display: inline-block; font-size: 0.6rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; padding: 3px 8px; border-radius: 100px; background: rgba(251,191,36,0.12); color: #fbbf24; border: 1px solid rgba(251,191,36,0.2); align-self: flex-start; margin-bottom: 2px; }
+
+footer { text-align: center; margin-top: 60px; color: var(--muted); font-size: 0.8rem; opacity: 0.6; }
+
+.a1  { background: linear-gradient(90deg, var(--accent1), #38bdf8); }
+.a2  { background: linear-gradient(90deg, var(--accent2), #818cf8); }
+.a3  { background: linear-gradient(90deg, var(--accent3), #fb7185); }
+.a4  { background: linear-gradient(90deg, var(--accent4), #6ee7b7); }
+.a5  { background: linear-gradient(90deg, var(--accent5), #f97316); }
+.a6  { background: linear-gradient(90deg, #c084fc, var(--accent2)); }
+.a7  { background: linear-gradient(90deg, #38bdf8, var(--accent4)); }
+.a8  { background: linear-gradient(90deg, #fb923c, var(--accent3)); }
+.a9  { background: linear-gradient(90deg, #4ade80, #14b8a6); }
+.a10 { background: linear-gradient(90deg, #e879f9, var(--accent2)); }
+
+@keyframes fadeUp { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: translateY(0); } }
+.card, .bonus-card { animation: fadeUp 0.5s both; }
+.card:nth-child(1){animation-delay:.04s} .card:nth-child(2){animation-delay:.08s}
+.card:nth-child(3){animation-delay:.12s} .card:nth-child(4){animation-delay:.16s}
+.card:nth-child(5){animation-delay:.20s} .card:nth-child(6){animation-delay:.24s}
+.card:nth-child(7){animation-delay:.28s} .card:nth-child(8){animation-delay:.32s}
+.card:nth-child(9){animation-delay:.36s} .card:nth-child(10){animation-delay:.40s}
+.bonus-card:nth-child(1){animation-delay:.44s} .bonus-card:nth-child(2){animation-delay:.48s}
+.bonus-card:nth-child(3){animation-delay:.52s} .bonus-card:nth-child(4){animation-delay:.56s}
+.bonus-card:nth-child(5){animation-delay:.60s}
+
+@media (max-width: 600px) { .grid, .bonus-grid { grid-template-columns: 1fr; } }

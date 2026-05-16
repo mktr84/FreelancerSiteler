@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Remote & Freelance Platforms</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="bg-orbs">
+  <div class="orb orb1"></div><div class="orb orb2"></div><div class="orb orb3"></div>
+</div>
+
+<div class="container">
+  <div class="lang-bar">
+    <button class="lang-btn active" onclick="setLang('tr')"><span class="lang-flag">🇹🇷</span> Türkçe</button>
+    <button class="lang-btn" onclick="setLang('en')"><span class="lang-flag">🇬🇧</span> English</button>
+    <button class="lang-btn" onclick="setLang('de')"><span class="lang-flag">🇩🇪</span> Deutsch</button>
+  </div>
+
+  <header>
+    <div class="badge" data-i18n="badge"></div>
+    <h1 data-i18n="h1"></h1>
+    <p data-i18n="subtitle"></p>
+  </header>
+
+  <div class="section-label" data-i18n="mainLabel"></div>
+  <div class="grid">
+    <a class="card" href="https://justremote.co" target="_blank" rel="noopener">
+      <div class="card-accent a1"></div><div class="card-top"><span class="card-num">01</span><span class="card-arrow">↗</span></div>
+      <div class="card-name">justremote.co</div><div class="card-desc" data-i18n="p01"></div><span class="card-tag" data-i18n="t01"></span>
+    </a>
+    <a class="card" href="https://wellfound.com" target="_blank" rel="noopener">
+      <div class="card-accent a2"></div><div class="card-top"><span class="card-num">02</span><span class="card-arrow">↗</span></div>
+      <div class="card-name">wellfound.com</div><div class="card-desc" data-i18n="p02"></div><span class="card-tag" data-i18n="t02"></span>
+    </a>
+    <a class="card" href="https://weworkremotely.com" target="_blank" rel="noopener">
+      <div class="card-accent a3"></div><div class="card-top"><span class="card-num">03</span><span class="card-arrow">↗</span></div>
+      <div class="card-name">weworkremotely.com</div><div class="card-desc" data-i18n="p03"></div><span class="card-tag" data-i18n="t03"></span>
+    </a>
+    <a class="card" href="https://remoteok.com" target="_blank" rel="noopener">
+      <div class="card-accent a4"></div><div class="card-top"><span class="card-num">04</span><span class="card-arrow">↗</span></div>
+      <div class="card-name">remoteok.com</div><div class="card-desc" data-i18n="p04"></div><span class="card-tag" data-i18n="t04"></span>
+    </a>
+    <a class="card" href="https://upwork.com" target="_blank" rel="noopener">
+      <div class="card-accent a5"></div><div class="card-top"><span class="card-num">05</span><span class="card-arrow">↗</span></div>
+      <div class="card-name">upwork.com</div><div class="card-desc" data-i18n="p05"></div><span class="card-tag" data-i18n="t05"></span>
+    </a>
+    <a class="card" href="https://fiverr.com" target="_blank" rel="noopener">
+      <div class="card-accent a6"></div><div class="card-top"><span class="card-num">06</span><span class="card-arrow">↗</span></div>
+      <div class="card-name">fiverr.com</div><div class="card-desc" data-i18n="p06"></div><span class="card-tag" data-i18n="t06"></span>
+    </a>
+    <a class="card" href="https://freelancer.com" target="_blank" rel="noopener">
+      <div class="card-accent a7"></div><div class="card-top"><span class="card-num">07</span><span class="card-arrow">↗</span></div>
+      <div class="card-name">freelancer.com</div><div class="card-desc" data-i18n="p07"></div><span class="card-tag" data-i18n="t07"></span>
+    </a>
+    <a class="card" href="https://toptal.com" target="_blank" rel="noopener">
+      <div class="card-accent a8"></div><div class="card-top"><span class="card-num">08</span><span class="card-arrow">↗</span></div>
+      <div class="card-name">toptal.com</div><div class="card-desc" data-i18n="p08"></div><span class="card-tag" data-i18n="t08"></span>
+    </a>
+    <a class="card" href="https://bionluk.com" target="_blank" rel="noopener">
+      <div class="card-accent a9"></div><div class="card-top"><span class="card-num">09</span><span class="card-arrow">↗</span></div>
+      <div class="card-name">bionluk.com</div><div class="card-desc" data-i18n="p09"></div><span class="card-tag" data-i18n="t09"></span>
+    </a>
+    <a class="card" href="https://sadeceon.com" target="_blank" rel="noopener">
+      <div class="card-accent a10"></div><div class="card-top"><span class="card-num">10</span><span class="card-arrow">↗</span></div>
+      <div class="card-name">sadeceon.com</div><div class="card-desc" data-i18n="p10"></div><span class="card-tag" data-i18n="t10"></span>
+    </a>
+  </div>
+
+  <div class="section-label" data-i18n="bonusLabel"></div>
+  <div class="bonus-grid">
+    <a class="bonus-card" href="https://flexjobs.com" target="_blank" rel="noopener">
+      <span class="bonus-label" data-i18n="bl01"></span><div class="bonus-name">flexjobs.com</div><div class="bonus-desc" data-i18n="bp01"></div>
+    </a>
+    <a class="bonus-card" href="https://himalayas.app" target="_blank" rel="noopener">
+      <span class="bonus-label" data-i18n="bl02"></span><div class="bonus-name">himalayas.app</div><div class="bonus-desc" data-i18n="bp02"></div>
+    </a>
+    <a class="bonus-card" href="https://peopleperhour.com" target="_blank" rel="noopener">
+      <span class="bonus-label" data-i18n="bl03"></span><div class="bonus-name">peopleperhour.com</div><div class="bonus-desc" data-i18n="bp03"></div>
+    </a>
+    <a class="bonus-card" href="https://guru.com" target="_blank" rel="noopener">
+      <span class="bonus-label" data-i18n="bl04"></span><div class="bonus-name">guru.com</div><div class="bonus-desc" data-i18n="bp04"></div>
+    </a>
+    <a class="bonus-card" href="https://r10.net" target="_blank" rel="noopener">
+      <span class="bonus-label" data-i18n="bl05"></span><div class="bonus-name">r10.net</div><div class="bonus-desc" data-i18n="bp05"></div>
+    </a>
+  </div>
+
+  <footer><p data-i18n="footer"></p></footer>
+</div>
+
+<script src="i18n.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
